@@ -960,3 +960,11 @@ const gods = [
       features: [],
     },
   ];
+
+  for (i in gods){
+    for (j=0;j<=(gods[i]).roles.length;j++)
+        if (gods[i].roles[j] == "Mid"){
+            console.log(gods[i])
+            }      
+    }
+  
